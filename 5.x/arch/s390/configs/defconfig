@@ -1,0 +1,3 @@
+[...]
+CONFIG_LSM = "myfun,yama,loadpin,safesetid,integrity,selinux,smack,tomoyo,apparmor"
+[...]
