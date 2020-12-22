@@ -1,0 +1,14 @@
+[…]
+
+source security/myfun/Kconfig
+
+[…]
+
+config DEFAULT_SECURITY_MYFUN
+     bool "MyFun" if SECURITY_MYFUN=y
+
+[…]
+
+default "myfun,lockdown,yama,loadpin,safesetid,integrity,selinux,apparmor,tomoyo,bpf" if DEFAULT_SECURITY_MYFUN
+
+[…]
