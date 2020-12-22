@@ -1,0 +1,6 @@
+config SECURITY_MYFUN
+        bool "MyFun security module"
+        depends on SECURITY
+        default y
+        help
+                This option enables a simply printk hook
