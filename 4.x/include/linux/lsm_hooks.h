@@ -1,5 +1,5 @@
 [...]
 
-#ifdef CONFIG_SECURITY_FOOBARexternvoid __init foobar_add_hooks(void);
-#elsestaticinlinevoid __init foobar_add_hooks(void){ }
+#ifdef CONFIG_SECURITY_MYFUN extern void __init myfun_add_hooks(void);
+#else static inline void __init myfun_add_hooks(void) { }
 #endif
