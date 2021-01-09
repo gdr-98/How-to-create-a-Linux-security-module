@@ -1,4 +1,4 @@
-Try to think to this folder like it is linux/. I created the directories just like they are in the linux repository, so you know where you have to create and put the files.
+Try to think to this folder like it is linux/. I created the directories just like they are in the linux kernel folder, so you know where you have to create and put the files.
 
 Credits to 4.x versions to: 
 
